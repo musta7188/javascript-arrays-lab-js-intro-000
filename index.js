@@ -36,7 +36,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  var NewKitten = kittens.shift("Arnold")
+  var NewKitten = kittens.concat(0, "Arnold")
 
   return NewKitten
 }
