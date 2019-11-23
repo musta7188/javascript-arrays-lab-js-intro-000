@@ -34,3 +34,9 @@ function appendKitten(name){
   return NewArray
 
 }
+
+function prependKitten(name){
+  var NewKitten = kittens.unshift("Tom")
+
+  return NewKitten
+}
